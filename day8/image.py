@@ -15,4 +15,4 @@ for i in range(0, len(image), 150):
 print("Part 1:", result)
 str = ''.join(message)
 for i in range(0, len(str), 25):
-    print(str[i:i+25].replace('0','.'))
+    print(str[i:i+25].replace('0',' '))
